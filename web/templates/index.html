@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <title>图书简介</title>
+
+    <style type="text/css">
+      html{
+          background: url({% static "image2/p5.jpeg"%});
+        }
+        #o{
+            float:left;
+            width: 126px;
+            height:150px;
+            cursor: pointer;
+            border: 5px;
+            border-radius: 10px;
+            border-color:red;
+            box-shadow: 0 0 10px black;   /*  放大的HOVER*/
+            transition:All 0.4s ease-in-out;
+            -webkit-transition:All 0.4s ease-in-out;
+            -moz-transition:All 0.4s ease-in-out;
+            -o-transition:All 0.4s ease-in-out;
+            margin: 0 0 0 55px;
+          }
+         #o:hover{
+                transform:scale(1.2);
+               -webkit-transform:scale(1.2);
+                -moz-transform:scale(1.2);
+                -o-transform:scale(1.2);
+               -ms-transform:scale(1.2);
+            }
+          #p{
+            position: absolute;
+            float: left;
+            left:3px;
+            top:600px;
+          }
+            #tab {
+           position: absolute;
+           left:380px;
+           top:100px;
+           overflow:hidden;
+           width: 1200px;
+           height:420px;
+           margin:0 auto auto auto;
+           box-shadow: 0 0 10px  black;
+           z-index: 11;
+           cursor: pointer;
+           border:1px;
+           border-radius:5px;
+          }
+           #header{
+                position: fixed;
+                top:0;
+                left:0;
+                width: 100%;
+                height: 48px;
+                z-index: 9999;
+                background-color: #fff;
+                box-shadow: 0 0 4px rgba(0,0,0,2);
+                opacity: 0.8;
+           }
+
+           .header-item {
+                position: relative;
+                float: left;
+                line-height: 28px;
+                margin-right: 17px;
+                margin-left: 21px;
+                cursor: pointer;
+                color:black;
+            }
+            .header-item:hover{
+                text-shadow: 2px 0 2px rgba(0,0,0,0.5);
+            }
+
+            .wrapper{
+                position:relative;
+                margin: 0 auto;
+                border:0;
+            }
+            .menu-bar{
+                width: 1000px;
+                height: 48px;
+                text-align: center;
+            }
+            .menu-bar .left-part{
+                float:left;
+                margin-top:10px;
+                color:black;
+            }
+            #searching{
+                width: 30%;
+                height: 32px;
+                padding: 0 6px 0 12px;
+                font-size: 14px;
+                color: black;
+                background: #fafafa;
+                border:1px solid #ddd;
+                border-radius: 2px;
+                position: absolute;
+                left:600px;
+                top:10px;
+            }
+            #searching1{
+                position: absolute;
+                left: 1120px;
+                top:15px;
+                width:0px;
+                height: 0px;
+
+
+            }
+            #go{
+                width: 32px;
+                height: 32px;
+                position: absolute;
+                left:1050px;
+                top:12px;
+            }
+            #pb{
+                position: absolute;
+                left:1220px;
+                top:4px;
+                font-size:12px;
+            }
+
+            #a{
+                position: absolute;
+                left:1500px;
+                top:15px;
+                font-size:10px;
+            }
+
+
+            .pagination{
+                z-index:600;
+                position: absolute;
+                top:800px;
+                left:840px;
+                width: 400px;
+                height:200px;
+
+
+            }
+            #pa1{
+                position:absolute;
+                text-decoration:none;
+            }
+            #pa11{
+                color: black;
+                text-decoration:none;
+
+            }
+            #pa2{
+                position: absolute;
+                top:800px;
+                left:930px;
+            }
+            #pa3{
+                position: absolute;
+                left:150px;
+                text-decoration:none;
+            }
+            #pa33{
+                text-decoration:none;
+                color: black;
+
+            }
+            .sousuo{
+                width: 32px;
+                height: 32px;
+                background:url({% static "image2/menu_sprite.svg" %}) 5px -93px no-repeat ;
+                position: absolute;
+                right: -10px;
+                top: -22px;
+                cursor: pointer;
+                z-index:1000
+
+            }
+    </style>
+    <script>
+    window.onload = function(){
+        var images =document.getElementsByName("1");
+        //方法可返回带有指定标签名的对象的集合。
+        var pos = 0;
+        var len = images.length;
+        setInterval(function(){
+            images[pos].style.display = 'none';  //隐藏第pos张图片
+            pos=pos+1;
+            if(pos==len)
+            {
+                pos=0;
+            }
+            //;//判断pos值，pos值先加1，然后跟图片数组的长度相比，如果pos值等于数组长度，也就是图片数组循环显示了一遍，然后从数组第一张图片再次循环显示
+            images[pos].style.display = 'inline';
+            //显示图片
+        },2500);
+
+    };
+    </script>
+
+</head>
+<body>
+<div id="tab" >
+    <img src="{% static "image1/1.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/2.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/3.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/4.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/5.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/6.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/7.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/8.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/9.png" %}" width="1200px" height="420px"  name="1">
+    <img src="{% static "image1/10.png" %}" width="1200px" height="420px"  name="1">
+
+
+</div>
+
+<div id="header">
+      <div class="wrapper" style="width: 1600px">
+         <div class="menu-bar">
+            <div class="left-part">
+                <a href="#"><div class="header-item">首页</div></a>
+                <a href="#" target="_blank"><div class="header-item">影评</div></a>
+                <a href="#" target="_blank"><div class="header-item">最近新出版的图书</div></a>
+                <a href="#" target="_blank"><div class="header-item">留言板</div></a>
+                <a href="#" target="_blank"><div class="header-item">每日推荐</div></a>
+                <a href="#" target="_blank"><div class="header-item">登录/注册</div></a>
+
+                <form method="get" action="/search/">
+                    {% csrf_token %}
+                    <input type="text" name="p" id="searching" placeholder="搜索您喜欢的" required>
+                    <button type="submit" id="searching1"><p class="sousuo"></p></button>
+
+                </form>
+
+
+            </div>
+            <div id="go"></div>
+            <div id="pb"><p>生活就像巧克力,你永远不会知道下一个你会得到什么</p></div>
+            <div id="a"><p>——《阿甘正传》</p></div>
+         </div>
+      </div>
+</div>
+
+{% load staticfiles %}
+<div id="p">
+{% for book in book %}
+    <a href="{% url 'myweb6:book_page' book.serial_name %}" >
+        <img src="{% static "images" %}{{ book.image_paths }}" width="126px" height="150px" id="o" >
+    </a>
+
+{% endfor %}
+
+</div>
+
+   <br/>
+
+
+
+<div class="pagination">
+        <div id="pa1">
+            {% if book.has_previous %}
+                <a href="?page={{ book.previous_page_number }}" id="pa11">上页</a>
+            {% endif %}
+        </div>
+
+
+
+        <div id="pa3">
+        {% if book.has_next %}
+            <a href="?page={{ book.next_page_number }}" id="pa33">下页</a>
+        {% endif %}
+        </div>
+</div>
+<div id="pa2">
+             {{ book.number }}
+</div>
+</body>
+</html>

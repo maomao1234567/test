@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+</head>
+<style type="text/css">
+    #a {
+        position: absolute;
+        left: 0;
+        top: -15px;
+    }
+
+    #b {
+        position: absolute;
+        z-index: 2;
+    }
+
+    #c {
+        position: absolute;
+        top: -10px;
+        left: -8px;
+    }
+
+    #d {
+
+        z-index: 310;
+        position: absolute;
+        top: 70px;
+        left: 300px;
+        width: 600px;
+        height: 750px;
+        border-color: black;
+        box-shadow: 0 0 100px rgba(0, 0, 0, 5);
+        border-radius: 10px;
+        -webkit-transform:rotate(1deg);
+
+    }
+    #d11 {
+
+        z-index: 310;
+        position: absolute;
+        top: 70px;
+        left: 900px;
+        width: 600px;
+        height: 750px;
+        border-color: black;
+        box-shadow: 0 0 300px rgba(0, 0, 0, 5);
+        border-radius: 10px;
+        -webkit-transform:rotate(1deg);
+
+
+
+    }
+
+    #h {
+        position: absolute;
+        top: 10px;
+        right: 50px;
+        z-index: 400;
+    }
+
+    #i {
+        position: fixed;
+        width: 1910px;
+        top: -5px;
+        left: -10px;
+        height: 38px;
+        color: white;
+        background: black;
+        z-index: 400;
+        opacity: 0.6;
+    }
+
+    #j {
+        z-index: 500;
+        position: fixed;
+        top: -12px;
+        left: 90px;
+        color: white;
+    }
+
+    #k {
+        z-index: 400;
+        position: fixed;
+        top: -2px;
+        right: 70px;
+        color: white;
+    }
+
+
+    #o {
+        position: absolute;
+        z-index: 800;
+        width: 400px;
+        height: 700px;
+        top: 40px;
+        left: 80px;
+        opacity: 0.9;
+
+
+    }
+
+
+</style>
+<body>
+{% load staticfiles %}
+<div id="a">
+    <video loop autoplay width="1900px" height="1100px">
+        <source src="{% static "image2/book_annual_2017op.mp4" %}"
+                type="video/mp4">
+    </video>
+</div>
+<div id="b">
+    <img src="{% static "image2/p1.jpg" %}" width="1899px" height="1075px"
+         id="c">
+</div>
+
+
+<img src="{% static "images" %}{{ book.image_paths }}" id="d">
+
+
+<div id="d11">
+         <p style="text-align: center;color: white">书名：{{ book.serial_name }}</p>
+         <p style="text-align: center; position: relative; top: 1px;color: white">作者：{{ book.book_author }}</p>
+         <div id="o">
+            <p style="font-family:STFangsong,Fangsong,FangSong_GB2312,STSong,serif; font-size: 15px;text-align: justify;white-space: pre-wrap;line-height: 2.5;color: white;">
+                {{ book.book_information }}
+            </p>
+         </div>
+</div>
+
+<div id="h">
+    <img src="{% static "image2/p2.jpg" %}" width="400px" height="400px">
+</div>
+
+<div id="i"></div>
+<p id="j" style="font-size: 14px">
+    曾经那个愿为我千千万万次捡风筝的人已经逝去，人生中错过了就不会再得到，也许我们会忏悔，会救赎，但这些似乎都已经晚了。每当放飞风筝的那一刻，我们应该问问自己我们是否真的珍惜过我们所拥有的一切</p>
+<p id="k" style="font-size: 13px">————《追风筝的人》</p>
+
+
+</body>
+</html>

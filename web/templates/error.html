@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html{
+             background:url({% static "image2/pu1.jpeg"%});
+        }
+        #o{
+            width: 126px;
+            height:150px;
+
+            cursor: pointer;
+            border: 5px;
+            border-radius: 10px;
+            border-color:red;
+            box-shadow: 0 0 10px black;   /*  放大的HOVER*/
+            transition:All 0.4s ease-in-out;
+            -webkit-transition:All 0.4s ease-in-out;
+            -moz-transition:All 0.4s ease-in-out;
+            -o-transition:All 0.4s ease-in-out;
+            margin: 10px 0 10px 55px;
+          }
+         #o:hover{
+                transform:scale(1.2);
+               -webkit-transform:scale(1.2);
+                -moz-transform:scale(1.2);
+                -o-transform:scale(1.2);
+               -ms-transform:scale(1.2);
+            }
+          #a{
+              font-size: 15px;
+              color: white;
+              position: absolute;
+              left:220px;
+          }
+          #b{
+              font-size: 15px;
+              color: white;
+              position: absolute;
+              left:220px;
+              margin: 37px 0 0 0;
+          }
+          #c{
+
+              color: white;
+              font-size:14px;
+              font-family:STFangsong,Fangsong,FangSong_GB2312,STSong,serif;
+              text-align: justify;
+              white-space: pre-wrap;
+              line-height: 2;
+              position: absolute;
+              left: 220px;
+              margin: 70px 80px 0 0 ;
+          }
+    </style>
+</head>
+<body>
+
+
+
+{% if error_msg %}
+    <p>{{ error_msg }}</p>
+{% endif %}
+
+
+{% for post in post_list %}
+  <div>
+            <p id="a">书名:{{ post.serial_name }}</p>
+            <p id="b">作者:{{ post.book_author }}</p>
+            <p id="c">简介:{{ post.book_information }}</p>
+            <img src="{% static "images" %}{{ post.image_paths }}" width="126px" height="150px" id="o">
+            <hr style="width:100%; color:white">
+
+  </div>
+{% empty %}
+  <div class="">
+    没有搜索到符合条件的文章
+  </div>
+{% endfor %}
+
+</body>
+</html>
