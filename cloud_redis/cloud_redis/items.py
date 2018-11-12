@@ -10,6 +10,5 @@ import scrapy
 
 class CloudRedisItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
     music_id = scrapy.Field()
     music_name = scrapy.Field()

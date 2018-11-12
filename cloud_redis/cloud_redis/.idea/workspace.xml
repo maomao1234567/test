@@ -2,300 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa4d2b1-7099-4578-9f0f-db526678ff38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/myweb6/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/requirement.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image1/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/beijing1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/book_annual_2017op.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/menu_sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p4.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p5.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p6.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p7.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/p9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/image2/pu1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/00e358ce61c68ca260c67ac56714546e0a399b3b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/02127443ab5a1cb0f01a52ecbdfb21eeb60f39f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/037f70157986b6b000c0e60ba4a050f79027bb03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/03f4be6422f817ab9e254db117936fa631d4f77b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/04c50eea7b39a076a1eb5acca0b2c0df5f9777c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/05740540d48fa2be41eb2757f84dd81f226c1472.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/059059620b97be023bf72f032ff354772bf411df.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/063b2778bcf5fcc1a1ce09b066d94efea3813066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/0699c25e7401610b6eb81444e30ba0efe71a162a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/06c98523b323317425d18ec774a5f90d23cf8e27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/06cbbbc7e75ce5feb35dbd0d7871f2aca22dc263.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/088aaf80bc9bdc4a3d44fb952f207dbe0651ef62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/0b579174ae2edf1bc0da72ff6ec4622220f5ba59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/0b68c33edc94a732548b07ec04c53b6bc48cf91c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/0d808d3d1423cd100d90adc855d09ead0becf337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/0f64fd800e393a684d9c44800e5bc33b992ebd28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/138e3b693ab53f30c3a571baa4aedbcea1f974f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1463a8f4a83176f9943963c7ab6b870bc3f0ffc4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/14a0863dacc0cf3ab63c4ee887c7b501e5a7f5c0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/157bd70103720c50fc9dd7f01bba82d3e1a622dd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/172644465a2e270a28784c96b00732b8ee86343f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1826efdfafd2f5a44ab966eb897fb50f4e4ffc80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/185085e902d3681fcff70dbccae0afa43eedb9c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1a0fcd256999cca96aa1e3185e22600c27c96900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1bc12d202100b3a0164f87623f733d31b581b3bc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1cde8bcca69625a0a34878f853fd7cadf490b50d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1ef3545767d614ae8b7b54586ccce47d523e9c19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1ef7dd1b8f047d6a12d99eed233e81d26b736653.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/1f1188ab69d7c0d40f038f7f0b21a590f6cc02c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/202f04ff6e000a5c590be3361bad6c6c7025fc21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/20565c3864c575f801593a37b9705ee655db25fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/219d867bdc32459791f78d80cc3e58b99ea18133.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/21d5a64f529d158f42a5caa2771933f76124e777.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/225a44393bba18181703842b3a5e38f5782e7b52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/23b21497bde6aa776bf344c74769fb935aa74ec8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/25e882cd62f9b52c5119d680f39c19285ba59d08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/262d5f9c1c8b4228a529e23d76bbbbf3f153c32c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/265fce76cd2b7a3488631d64c8e8be58d01c69fb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/2702c55e4f25ba70b95c76c224019b36fe3dd846.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/29c951efc22809f4cd91ec11b433e1b0bec061a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/29fc76737fa9b57ac96b20d70095988a543ef39f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/2b20282c8bde636295be9bdaa384c0c2ee79ab95.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/2c1232efa89ce2052cf71b97a55895a63de6dd48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/2c37aaa7ea268dc86d25a14f89ce5f724b8768b2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/2d260604278b51683e69477e166661cec24c779a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/2f0246e9edb3f660235c326e4ee41a5894393dd2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/2fb4542aa917432bff831017493b72be869bcb96.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/30a62b2df0574cac56c3e2b59ab048099be9c1e9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/3438197d9e4ccac90d773a7cfedd641a9f2f14ea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/3554c6312d517b3aa01b715fa35c49a2c8a06c21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/36aab315c04e9c399191a65b4b25351e61dc7f7f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/372914026fd70312029fea74c6a5862023e0ca7e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/37ff2efb12904c2312ccab88d28e982ffc1e7a36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/39178ca596d454142ccea6470c10178eb1a856f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/3965023a9b8157f4e8db1c259c154353dc6aba6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/3a4609c816510bfc9181a20b3b98d56450362cfa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/3bc176545b998fe255faf71881dd7b06faf61a39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/3dd09d0dc02d0ab47c60e10813ebb900e415526c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/405edb87efcbab699d33c50e47a352706be55685.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/408b7373e596857db0b5d8e9e6d01b8082453c03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/409a20eb8e00b34522cdaef8495491c4172bf625.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4100e3c2ea54cc69f68ccbd9fe56722934247472.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4259aaa3535f0090738e88db5250f840ef2d0c1f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/42ebb08ef24026d6a0a313382b7d598cae3aafdb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4315dc81167039d206d896b3ff990e3a9f971436.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/446fd72de2fb0ef17bf44275b71309f82da5af91.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4495084e68b05ca54c71fb88ba249637836f5bad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4562bee2f825f6fb4ce676b06d23d75bd0f6fb2c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/457584e2b18a75ca8dd3ba69872fc9c566ad8e59.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/48eeb04f8c6495bd8ed23df61e887f1b9d14ebc9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4c44c59ca16ac250b8295801d859a5178ac1dc82.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4c83cbef97a942cf18488604d3f58883172d4f6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4d37e50568ba6d5a2f217c56dde3629a92b8bc62.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4e5656ae95f193856fe4f69863a99c4ff2cb6a49.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4eb05c571ebf0fd9caab1e708ec8dc4744a462bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4f88bbe1bc8539348d97947fd9819bd01270b995.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/4fb470903136a9a974d6a93a9fca3a40020a1d6f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5009b1cd43d3ea3ca22a38df8b0ce009cfb76793.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5059dc569a96989d12a51a4f94a1bfa92e265795.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/51e7b6464a06db35ff40649ebdd31d1fa1ea170c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/53b45b6f75fa0f8d72a8a1e2c21d0c2fd72670ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/53d7caf8cbd8f98a70537a63dc7d91d0e99d5b76.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5484c97fe68f04339653aa6b1217e4beff4af502.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/55d286f134a0d73d925a4ba0c85c6a36d6437986.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5614a0b767428391557958587e8cf2ce142dcd56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/57abca9508c6a5d387ca8eb5a23b2cab33a2f570.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5c5ece2bed7aa9cf0166eef5e7717aa07a2fd43f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5d315f2d0f06a1b96a69241bddea101b50ad1792.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5efef1d5f2ab695190320fdce654893845d7ff73.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5f8def00dcf88d83abe4b59d7804edae4acea672.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/5fe669feb4eb00f95c4bb3c3ca11222420764151.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/6051347e609aebf54decadc9d43c25497b68f55a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/60fe3371b78880a023f040443cead49675cef52b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/6312468b6d18faf7b0894a6ea63972a09c336071.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/65efbf9b8203dc98afe2ceba5f289f748d780b79.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/66f780e9dd408eec642786789358d49324533717.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/67f0c9872d1602f126317501d0680899e4bb54ae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/6b7c24d40bdbef4ab3de7db715bbd43ce63c35e2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/6b8368b9e35b2012c7bfa20c216ec6bb4ca864ca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/6db93612a913a008eeea8216df3dddc13f0fcf0d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/6dcf7b73f63941b166541784d15b3bcba3d680bb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/70ac915ec9c7f45606f934238894ba9c0605eb69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/74dcf1bffef01255f64c2f0ba6bab641f9b53180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/75153002c78eb0fde3ded1a3250a90b53ec8e645.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/753ec1a38f9775258b9d0c86e6ed55bde396e15b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/763dc4e66ced0ad85bfa2de4a17ebbd8bd41f8f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/76eaca6af32181e19f796f22ce159c7c9d8612d7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/77808c8920955dda87b85d867853f5a4a152af80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/78f039fb976251cd986d41c897e897203c0df07a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/793a97f5bc847cc09d01933abc3a963bc9737f33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/7a8bea0c7cb02d072e29bac61b6af2ff77531044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/7d3dab21ac16528021d6a828f88c86ba5d7d2554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/7df62255e14666b2c3aa4f7d50695bc6b188a5f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/7e3601c047ee506808c147b38afef7b29055f4a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8031ebf3cf88fe3258dde9663f74401b18497dfd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/80c4058a56f8b956862765c6fa3f609d61252539.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/819d1582ac51f37f79c66e5042c5dc0b6b096127.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8532cf091f36848607a23ec1823b11509ec64829.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8545e89dd8eacd069e5b3407e8f9680d7c730110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8609a10c9f00eb99010c004e3367e7df6fffd0e9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/866a79cb4c87383af9f5e32f7785dd536d5d324c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/86c84cffc5a984647b53008836b7bbae2b7109d2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/87192faa922130d98a840911daa614d69208e91b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/886b170e690ac1dac1f6a51d30d3cee27add8c92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8aada8ea6df250039836c782435ec396f197a0af.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8b85931845dfe52d8cf434f297ab7189f48365ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8d8830542b7888fc8f495036d32cd5df0a127cea.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/8ec3052dafb1e91072d5c0da005c9e87ad77640b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9006d0197bc050644e3f359ee6536b71a71f628e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/900b3873c72a9528b07ccfdd6859ca3b90a279d3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/92152bca1cb0994695afc968a9aa1e25ea3aa758.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/92602fd0dd086c03a47126a74b4839851fce2fc8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/92b817fa2c29eeaeadf8d419b78583187091a4dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/931dfd50ce1573a761a1bb836b8e6a760201192b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/934e81b98df19cd3e785c7008332f88c4e343bc9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/94867d3c2c9fde520ce4c8c836bcfa103f9713a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9696ac34885e1eb753d43e0a843d3b79fa47570c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9859c4ea9032ef36ce56ceb9ad465c17e760352e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/98b66ff86db6268eeab44376cc30f6a58fb71777.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/98fc1d72311e67ec4e19636807be29452719c53d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/99248e718189a5f4a0ef7a3a1e8958e02385b177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9a14c875bbded6693182b4f1484cdf289069a713.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9a1628b7e2bc443594822bbb6f95049e6e09c548.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9adfa4f817d2a023fcae4b76f3fb33d70bba1add.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9bb310d1ae9135e30fe0d225ad79a3d6c6e1a27e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9c13be91ae7aeda87552ce431548a4300730496e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9cc9913004ea58abd2fe8cf5702fab399a203bae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/9fdcb341d683f62692131ae0459e005047412649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a05e8df95b8135d7a8e7aac4138cad4122eaf896.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a0785c0b4923bbcd62b571c326c6ef3894fc5a1d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a09c27f51596b7324248ce6d8eb0b94239747f64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a0cb813bd7fac7c650820277a8f245cdc9b94245.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a0ee0862268d9bd88b129b93b7a26d6750f0350c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a12f711a5421ab13633fd6770aa18abf6b98a835.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a37afa6f9554617fd31a94ccacaab286ab5e4eee.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a3a3c7a4a68f0766605fc462d6acff23bfe16270.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a407ce9d92274e9287511f0ec71a0587e502c411.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a512b82c178b34bc3147c196ca3dc3bcf50dd58c.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a61037a403ce40bd4734f2648a6815104fbea5d3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a6714b04ee16f01d2c139be4ab1ad80aec7d84f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a6d3bd1a1694085c34e32da81db33301292e39ca.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a7cb9ad89ee5205bd72ff3d814d15d17206bddbc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a7e63f81c6a59783a684ba16737007eba7c0e041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a820f7a4138b15f0bb2016f6fea1fdc2b0c77211.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a84bafc03b846833d9e5cb47182582257a6a05be.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a853c9f9514f0e8fae2d3e5e4f0f6c9a223d0856.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a86e5860df80d27a156e6bb4ee2b2f14f13772d0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/a882c3ebbf89ed65d26403e524e8620d9ab9e218.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/aa55404a43f3089f38b40a99f27b56bb7b6854fc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ad17771ac5e809da08729871f7c1e616e5223b93.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/adf687ee6ed472dc52782230746fa6584f725928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/b04c43cb46361e1a54eb1dc8d11f9647be89cb1e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/b095a4ce55f4d2b598a8213ad471385e4b5d1948.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/b18c0ae4981969dd8d3fb04ffff0f4a6a6419138.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/b498afcb6692ef4407c9e5b2bc7dabc46253a2eb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/b7609ce60b1f5448e98b960cc1428db60e35026e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/b8c0e3de343c98063431f0f03c217a1b0d4dd41b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/bb0538acd8f4f15eb8fe7430fd4df1a1c5e2ff7a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/bb3176b12959ec48e60bc7cefc627fc58ace7ca7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/bcb454f005e3e907d71cd8baeb398978f0569d83.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/bf35d35db0965807dd315259aad20a500c2e62d8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c02f062cb97db40178392154df3f5af7b6ed35fb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c07e4fdea12f716116a866e3bca9e50a4e9fdbdf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c12c18e75fe3b96c4bdfe5310ca80eaa8de4731f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c1c7e87de6838c44fc78698702558789a1ad1297.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c1cbdfd358972d0205dd5ef900e489696e014725.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c2054b1371e55e81da4bbcbd7daa4a63dae0efb2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c29e5198598e9cf26ba0e885b3788c1a163ede55.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c443b895a7f5dc9e9646b313f4bf2dc23cd55eab.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c5185bb60ac3b1b1e6e9aef8bd5c7a319e4036ff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c60d8c51f3bf6c8ae8aeefca220444cdc9f8cc94.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/c6f271dd2b51f618b7b0f08784e8c7e1a65b96ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ca57a13234bd0f867dafcb3dda13ab422be1716d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/cc9bd654dc4e484e5eff6a0f8476c1bed8f96bfc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/cdfe0a00c7be5b163a247626a8eca165e5dddbd3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d0883e97291556f066e61f9d6f435c5166310db7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d0b87fb401e77bbb9bbcca34fcef734efc2605cf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d1535deb4efced8d18c7e96a5160ddfc14f60f3e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d29102c54d98f2417b66e576e19a9953d66e1f5a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d2eb21ff5aac42d3143302471bbc4c7812c269dc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d4e624c5c079642619ef4b16c8505cc0b3af4c29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d63bfbcf05488f2198775ac1a97c4f791f1b1fd3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d773c4aa08b777a366480a557fd8f7716af498b0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d80db76023ade4b62ceb9ef01e98441d9464c436.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d81b28777fae3c4e1ff93187369a0e8558f79a6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d85c675ea9759673240b6cfc5e01c35746bb68ad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/d8bb8ff0f41e5a3b52486f8c207e9d222893aef6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/da1ac2cacb34c081b471f486a4f9a58d42def4b5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/db316da02235bef9f15e7d8a668ff049e45eb13f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/db6ef8d8c2995226276123efc944c2e5f9c1b24a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/dc692cab370d5fe3b7d9dd7b1656544ebd2cf813.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/dce1ef784fc2756378c6f4c1b8a528984bc3de97.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/dcf16d784cbb544ca405dcd1de7287131b9540ae.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ddebef7a685414aa468caa5737cdcef530b835bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ddf01954910fdcb4ab29ee4a1feb4ee7ff76acdb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e071f73009090580643e75e82aec2bc8aba38220.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e0badaf0a164039e54455a50a5c8d03a3fb7fb21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e144c317885fc7fb82a487e305a574e8b24a53f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e1cd56bfea39d5c3120443f0beed4758f219c761.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e2c3ff0ce298c88458832380e2e4df813090211f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e329108b47be087d7ff2c8b6bb7885495b894689.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e42ec69f310ea6d39affdd96ac04952e38f1c71b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e438659925362d34820d7cb17659c6fbcb721a16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e67da38b81639a415b4e81a191f004bf4f8ab112.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e80a35b3cef4cdeb358d9d0aad728443e4cbe835.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/e82d76d0547a9bf3ddd483ad10d34b7311b4f7c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ea9cf24972c21d2216f1cded96c07380bb3e0f82.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/eafdea6d46dc91dc07d8a4cd515fc68fecffe26e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/eb6d21e8d6397775f4abe4701bbecec0ddcedacb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ec4a511bb74701e6a9964ea7fa4a1a0870fd67bd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ee27f32e0cf7a388e3d14ed25c50536cdeb80f17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/eec739de597114cfe7837bbd0400d006403c8f4e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ef40011fd7be4ec90397372f4b3960172f4fe7ff.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f0142af91d87ee90a888eba8d30b034a0cafa3c8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f285b35652e399c41818006c2019f6cf7709febb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f38e4f1c20b4ec7c36eeb78d597d6234dc53594a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f418e06384f63bc981f6ce2a6c08cad9b6e10519.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f6ba7c6ed0f42b61163fff3b19303df213dadc44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f7adeddebdfaf8f7c7839d9094fa8fbef251d019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f7ced2a53f1a23e0c169c26561983f3e54862080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f84171c7f261a6fb2a40ec44966edafb6be8e32b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/f9e0807bd67c4c5e00c073cf466cc1ca2c5d0c92.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/fb67e7bfde8674a610eb772b1d9a955f03d27699.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/fb8686688a4e753bf5369e12d7d3cd510b604d65.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/fbc324d324ed64a29d2c3750441f0c75de2d8c26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/fcb77bdc3624103d2930190fc1226175f47bca60.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/fd3de3bb57ef58feecef2c5e87a92845817dc340.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/static/images/ff00049fde31f4730f055d5be3e711e8438510a4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/templates/book_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/templates/error.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/templates/web6/pyecharts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/web6/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/web6/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/web6/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../web/web6/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/cloudmusic.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/cloudmusic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -309,38 +18,39 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="308" />
+          <entry key="py" value="626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="308" />
+          <entry key="Python" value="626" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spiders/cloudmusic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="165">
+              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -348,13 +58,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-287">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding>
-                <marker date="1541940974000" expanded="true" signature="203:208" ph="..." />
+                <marker date="1541988876000" expanded="true" signature="203:208" ph="..." />
               </folding>
             </state>
           </provider>
@@ -370,10 +89,12 @@
       <list>
         <option value="$PROJECT_DIR$/items.py" />
         <option value="$PROJECT_DIR$/spiders/cloudmusic.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="977" />
@@ -418,7 +139,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" x="923" y="490" width="80" height="42" id="Project" order="1" type="FLOATING" visible="true" weight="0.24960506" />
@@ -445,21 +167,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
-            <marker date="1541940974000" expanded="true" signature="203:208" ph="..." />
+            <marker date="1541988876000" expanded="true" signature="203:208" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spiders/cloudmusic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="165">
+          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-287">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
