@@ -3,6 +3,7 @@ import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 from items import CloudRedisItem
+import re
 
 
 class CloudmusicSpider(CrawlSpider):
@@ -18,5 +19,14 @@ class CloudmusicSpider(CrawlSpider):
 
     def parse_item(self, response):
         item = CloudRedisItem()
+        music_items = response.xpath("//table/tbody/tr")
 
-        return item
+        for music in music_items:
+            item['music_name'] = music.xpath('/td/div[@class="f-cb"]/div[@class="tt"]/div[@class="ttc"]/span/a/b/@title')
+            url = music.xpath('/td/div[@class="f-cb"]/div[@class="tt"]/div[@class="ttc"]/span/a/@href')
+            m1 = re.search(r'\d{9}', url)
+            if m1:
+                item['music_id'] = m1.group()
+            else:
+                continue
+            yield item
