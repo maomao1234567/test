@@ -4,6 +4,7 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
+from fake_useragent import UserAgent
 
 from scrapy import signals
 
@@ -101,3 +102,18 @@ class CloudRedisDownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class UserAgentMiddleware(CloudRedisDownloaderMiddleware):
+
+    def process_request(self, request, spider):
+        """设置随机的请求头
+        :param request:
+        :param spider:
+        :return:
+        """
+
+        ua = UserAgent()
+        user_agent = ua.random
+
+        request.headers.setdefault('User-Agent', user_agent)
