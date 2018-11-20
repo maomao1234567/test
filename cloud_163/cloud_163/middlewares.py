@@ -6,7 +6,8 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-
+from fake_useragent import UserAgent
+from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
 
 class Cloud163SpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -101,3 +102,18 @@ class Cloud163DownloaderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+class UserAgentMiddleware(UserAgentMiddleware):
+
+    def process_request(self, request, spider):
+        """设置随机的请求头
+        :param request:
+        :param spider:
+        :return:
+        """
+
+        ua = UserAgent()
+        user_agent = ua.random
+
+        request.headers['User-Agent'] = user_agent

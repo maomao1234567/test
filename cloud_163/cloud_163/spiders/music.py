@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from scrapy import Request, FormRequest
-from ..settings import DEFAULT_REQUEST_HEADERS
+from scrapy import Request
 from ..items import Cloud163Item
-import json
+import time
+
 
 class MusicSpider(scrapy.Spider):
     name = 'music'
@@ -50,7 +50,7 @@ class MusicSpider(scrapy.Spider):
         for music in musics:
             music_id = music[9:]
             music_url = self.base_url + music
-
+            time.sleep(5)
             yield Request(music_url, meta={'id': music_id}, callback=self.parse_music)
 
     # 获得音乐信息
