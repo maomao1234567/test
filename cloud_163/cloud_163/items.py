@@ -15,3 +15,4 @@ class Cloud163Item(scrapy.Item):
     artist = scrapy.Field()
     album = scrapy.Field()
     music = scrapy.Field()
+    music_url = scrapy.Field()

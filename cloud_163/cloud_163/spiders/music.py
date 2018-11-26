@@ -8,8 +8,8 @@ import time
 class MusicSpider(scrapy.Spider):
     name = 'music'
     base_url = 'https://music.163.com'
-    ids = ['1001','1002','1003','2001','2002','2003','6001','6002','6003','7001','7002','7003','4001','4002','4003']
-    initials = [i for i in range(65, 91)]+[0]
+    ids = ['1001','1002']
+    initials = [i for i in range(65, 80)]+[0]
 
     def start_requests(self):
         for id in self.ids:
@@ -65,4 +65,5 @@ class MusicSpider(scrapy.Spider):
         item['id'] = music_id
         item['artist'] = artist
         item['album'] = album
+        item['music_url'] = 'http://music.163.com/song/media/outer/url?id='+str(music_id)
         yield item
